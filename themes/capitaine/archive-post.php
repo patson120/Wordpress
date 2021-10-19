@@ -18,7 +18,7 @@
         </ul>
     </div>
 
-    <h1 class="site__heading my-4 text-muted">Quelques des modules du sigif</h1>
+    <h1 class="site__heading my-4 text-italic">Quelques des modules du sigif</h1>
     <?php get_template_part('parts/some-modules'); ?>
     <a href="http://localhost/wordpress/module/" target="_blank" class="nav-link btn-outline border border-primary rounded-pill  d-flex justify-content-center mx-auto" style="width: 7rem;">Voir plus</a>
     </div>

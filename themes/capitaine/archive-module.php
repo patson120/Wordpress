@@ -4,8 +4,6 @@
 
 <!-- <?php get_template_part('parts/banner', 'post'); ?> -->
 
-
-
 <header id="mon-carousel" class="carousel slide container mt-4" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#mon-carousel" data-slide-to="0" class="active"></li>
@@ -15,16 +13,16 @@
     </ol>
     <div class="carousel-inner rounded">
         <div class="carousel-item active">
+            <img class="d-block w-100 h-100" src="<?= get_template_directory_uri() . '/img/trevor-pye-KyaoT3NKN2s-unsplash-scaled-2560x1280.jpg'?>" alt="Third slide">
+        </div>
+        <div class="carousel-item">
             <img class="d-block w-100 h-100" src="<?= get_template_directory_uri() . '/img/gettyimages-182921931-612x612.jpg'?>" alt="First slide">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100 h-100" src="<?= get_template_directory_uri() . '/img/gettyimages-638591634-612x612.jpg'?>" alt="Second slide">
+            <img class="d-block w-100 h-100" src="<?= get_template_directory_uri() . '/img/0602337228761-web-tete.jpg'?>" alt="Second slide">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100 h-100" src="<?= get_template_directory_uri() . '/img/gettyimages-1161416667-612x612.jpg'?>" alt="Third slide">
-        </div>
-        <div class="carousel-item">
-            <img class="d-block w-100 h-100" src="<?= get_template_directory_uri() . '/img/attestation_conformite.jpg'?>" alt="Third slide">
+            <img class="d-block w-100 h-100" src="<?= get_template_directory_uri() . '/img/photo-foret.jpg'?>" alt="Third slide">
         </div>
     </div>
     <a class="carousel-control-prev" href="#mon-carousel" role="button" data-slide="prev">
