@@ -1,0 +1,40 @@
+
+.post-categories{
+    display: flex;
+}
+
+.post-categories li{
+    list-style-type: none; 
+    border: solid 2px black;
+    border-radius: 25px;
+    padding: 5px 10px;
+    margin: 0px 10px;
+}
+.post-categories li:hover a{
+    text-decoration: none;
+}
+
+.post__meta .avatar{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#mon-carousel{
+    height: 45vh;
+    overflow: hidden;
+    justify-content: center;
+}
+.carousel-inner, .carousel-item{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
