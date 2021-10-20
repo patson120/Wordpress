@@ -1,4 +1,3 @@
-
 <div class="row">
     <?php 
         $query = new WP_Query([

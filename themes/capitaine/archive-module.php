@@ -37,8 +37,9 @@
 
 <div class="container overflow-hidden">
 
-
-<h1 class="site__heading mt-4">Liste des modules du SIGIF</h1>
+<hr class="mt-5 bg-success" style="height: 2px"/>
+<h1 class="site__heading text-center font-weight-bold text-uppercase">Liste des modules du SIGIF</h1>
+<hr class="bg-success" style="height: 2px"/>
 <div class="row justify-content-center">
     <?php  if (have_posts()): while (have_posts()): the_post(); ?>
     <div class="col-sm-4 my-4">

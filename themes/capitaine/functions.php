@@ -56,7 +56,7 @@ function capitaine_pagination(){
             $active = strpos($page, 'current') !== false;
             $class = 'page-item';
             if ($active){
-                    $class .= ' active'; 
+                $class .= ' active'; 
             }
             echo '<li class="' . $class . '">';
             echo str_replace('page-numbers', 'page-link', $page);
@@ -75,14 +75,14 @@ function capitaine_menu_css_class ($classes) {
     return $classes;
 }
 function capitaine_menu_link_attributes ($attrs) {
-    $attrs['class'] = 'nav-link';
+    $attrs['class'] = 'nav-link text-white';
     return $attrs;
 }
 
 function capitaine_init(){
     register_taxonomy('actualite', 'post', [
         'labels' => [
-            'name' => 'Actualité',
+            'name' => 'Actualités',
             'singular_name' => 'Actualité',
             'plural_name' => 'Actualités',
             'search_items' => 'Rechercher des Actualité',
@@ -91,7 +91,7 @@ function capitaine_init(){
             'update_item' => 'Mettre à jour l\'Actualité',
             'add_new_item' => 'Ajouter une nouvelle a',
             'add_new_item' => 'Ajouter une nouvelle actualité',
-            'menu_name' => 'Actualité',
+            'menu_name' => 'Actualités',
         ],
         'show_in_rest' => true,
         'hierarchical' => true,
@@ -101,7 +101,7 @@ function capitaine_init(){
 
     register_post_type('module', [
         'labels' => [
-            'name' => 'Module',
+            'name' => 'Modules',
             'singular_name' => 'Module',
             'plural_name' => 'Modules',
             'add_new_item' => 'Ajouter un nouveau module',
@@ -118,6 +118,26 @@ function capitaine_init(){
         'show_in_rest' => true,
         'has_archive' => true,
         ]);
+
+    
+    register_post_type('service', [
+    'labels' => [
+        'name' => 'Service',
+        'singular_name' => 'service',
+        'plural_name' => 'services',
+        'add_new_item' => 'Ajouter un nouveau service',
+        'update_item' => 'Mettre à jour un service',
+        'edit_item' => 'Modifier ce service',
+        'all_items' => 'Tous les services',
+        
+    ],
+    'public' => true,
+    'hierarchical' => true,
+    'menu_position' => 2,
+    'supports' => ['title', 'editor', 'thumbnail', 'description'],
+    'show_in_rest' => true,
+    'has_archive' => true,
+    ]);
 }
 
 
