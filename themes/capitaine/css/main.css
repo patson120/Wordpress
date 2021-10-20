@@ -38,3 +38,18 @@
     align-items: center;
 }
 
+#footer{
+    background: #171b2a;    
+}
+
+#footer a{
+    text-decoration: none;
+}
+#footer a:hover{
+    font-weight: bold;
+    color: #28a745 !important;
+}
+
+.copyright{
+    background: #282b38;
+}

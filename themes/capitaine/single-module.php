@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+
 <div class="container">
     <?php if (have_posts()): ?>
         <?php  while (have_posts()): the_post(); 
@@ -12,4 +13,5 @@
     <hr class="bg-success" style="height: 2px"/>
     <?php get_template_part('parts/some-modules'); ?>
 </div>
+
 <?php get_footer(); ?>
