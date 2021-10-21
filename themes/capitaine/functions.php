@@ -33,7 +33,9 @@ function capitaine_register_assets() {
     wp_enqueue_script('bootstrap');
     
     // Déclarer style.css à la racine du thème
-    wp_enqueue_style('capitaine_main_style', get_stylesheet_uri() .'/style.css');
+    wp_register_style('capitaine_main_style', get_template_directory_uri() . '/style.css');
+    wp_enqueue_style('capitaine_main_style');
+
 
     // Déclarer un autre fichier CSS
     wp_register_style( 'capitaine_other_styles', get_template_directory_uri() . '/css/main.css');
@@ -122,7 +124,7 @@ function capitaine_init(){
     
     register_post_type('service', [
     'labels' => [
-        'name' => 'Service',
+        'name' => 'Services',
         'singular_name' => 'service',
         'plural_name' => 'services',
         'add_new_item' => 'Ajouter un nouveau service',

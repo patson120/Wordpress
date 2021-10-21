@@ -7,7 +7,7 @@
 </head>
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
-    <nav class="menu-principal navbar navbar-expand-lg navbar-light bg-primary w-100">
+    <nav class="menu-principal navbar navbar-expand-lg navbar-light bg-dark w-100">
         <a class="navbar-brand" href="<?= home_url('/') ?>" style="width: 3.4rem;">
             <img class="img-responsive w-100 h-100" src="<?= get_template_directory_uri() . '/LogoSIGIF_540x540.png'; ?>" alt="logo" srcset="">
         </a>
@@ -24,5 +24,10 @@
             <?php get_search_form(); ?>
         </div>
     </nav>
+    <div class="row" style="height: 5px">
+        <div class="green col-4 h-100" style="background: green;"></div>
+        <div class="red col-4 h-100" style="background: red;"></div>
+        <div class="yellow col-4 h-100" style="background: yellow;"></div>
+    </div>
 
     

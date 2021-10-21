@@ -22,24 +22,15 @@
             <img class="d-block w-100 h-100" src="<?= get_template_directory_uri() . '/img/photo-foret.jpg'?>" alt="Third slide">
         </div>
     </div>
-    <a class="carousel-control-prev" href="#mon-carousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#mon-carousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
 </header>
 
 <div class="max-width overflow-hidden my-5">
-
-    <h1 class="site__heading font-weight-bold text-uppercase text-white mt-3">Modules</h1>
+    <h1  class="text-white font-weight-bold text-uppercase mt-3">Services</h1>
     <div class="bg-success border border-success" style="height: 4px; width: 50px"></div>
     <div class="row justify-content-center">
         <?php  if (have_posts()): while (have_posts()): the_post(); ?>
-        <div class="col-sm-4 my-4">
-            <?php get_template_part('parts/card-module'); ?>
+        <div class="col-lg-3 col-md-4 my-4">
+            <?php get_template_part('parts/card-service'); ?>
         </div>
         <?php endwhile; endif; ?>
     </div>

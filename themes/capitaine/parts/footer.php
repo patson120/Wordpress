@@ -10,7 +10,7 @@
                             </div>
                         </div>
                         <div class="footer-address"></div>
-                        <div class="ltn__social-media mt-20">
+                        <!-- <div class="mt-20">
                             <ul>
                                 <li>
                                     <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
@@ -25,21 +25,20 @@
                                     <a href="#" title="Youtube"><i class="fab fa-youtube"></i></a>
                                 </li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-6 col-sm-6 col-12 mb-4">
                     <div class="footer-widget footer-menu-widget clearfix">
-                        <h4 class="footer-title text-success">Companie</h4>
+                        <h4 class="footer-title text-success">Iniformations</h4>
                         <div class="footer-menu"></div>
                     </div>
                     <div class="mt-5">
-                        <a class="d-block text-white" href="#">User Experience</a>
-                        <a class="d-block text-white" href="#">Business Processes</a>
-                        <a class="d-block text-white" href="#">Business Models</a>
-                        <a class="d-block text-white" href="#">Innovation Culture</a>
-                        <a class="d-block text-white" href="https://www.flysoft-eng.com">Flysoft
-                            Ebgineering</a>
+                        <a class="d-block text-white" href="#">Accueil</a>
+                        <a class="d-block text-white" href="#">Actualités</a>
+                        <a class="d-block text-white" href="#">Modules</a>
+                        <a class="d-block text-white" href="#">Services</a>
+                        <a class="d-block text-white" href="#">Contacts</a>
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-6 col-sm-6 col-12 mb-4">
@@ -95,7 +94,7 @@
     </div>
     <div class="py-5 mt-4 copyright">
         <div class="container-fluid text-center text-muted" >
-            @copyright by flysoft-engineering & Patrick Kenne <a href="#" class="text-success">Confidentialité</a> &ensp;
+            @copyright by flysoft-engineering & Patrick Kenne <a href="http://localhost/wordpress/politique-de-confidentialite/" class="text-success">&ensp;Confidentialité</a> &ensp;
             <a href="#" class="text-success">Condition générale</a> &ensp;
             <a href="#" class="text-success">Fonctionnement du site</a> &ensp;
             <a href="#" class="text-success">Plan du site</a> &ensp;
