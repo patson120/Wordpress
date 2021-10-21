@@ -1,0 +1,148 @@
+.Index{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/photo-foret.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.block-cercle{
+    background-image: url(../LogoSIGIF_540x540.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    animation: block-cercle 3s linear infinite;
+}
+
+@keyframes block-cercle {
+    
+    0%{
+        transform: translate(-50%, -22%);;
+    }
+    50%{
+        transform: translate(-50%, -32%);
+    }
+    100%{
+        transform: translate(-50%, -22%);
+    }
+}
+
+.align-text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.drapeau-cameroun{
+    width: 200px;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-minfof{
+    width: 200px;
+    position: absolute;
+    top: 5%;
+    right: 0%;
+    z-index: 99;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-minfof img{
+    width: 70%;
+}
+
+.block-accueil{
+    height: 10rem;
+    width: 100%;
+}
+
+.block-cercle{
+    z-index: 2;
+    width: 18rem;
+    height: 18rem;
+    left: 50%;
+    transform: translate(-50%, -22%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn.startnow{
+    font-size: 22px;
+    position: absolute;
+    top: 40vh;
+    z-index: 2;
+    left: 50%;
+    transform: translate(-50%, -22%);
+}
+
+@media (max-width: 796px){
+    .Index{
+        padding-top: 18vh;
+        display: block;
+    }
+    .block-accueil{
+        position: relative;
+        display: block !important;
+        height: auto !important;
+        padding: 20px;
+    }
+    .align-text-center{
+        font-size: 18px;
+        width: 100% !important;
+        height: auto !important;
+        margin-left: 0rem !important;
+        padding-bottom: 10px;
+
+    }
+    .block-cercle{
+        width: 15rem;
+        height: 15rem;
+        left: 50%;
+        margin-top: 150px !important;
+        transform: translate(-50%, 0%);
+    }
+    .btn.startnow{
+        font-size: 19px !important;
+        top: 58vh;
+    }
+    
+}
+
+@media (max-width: 520px){
+    .Index{
+        padding-top: 15vh;
+    }
+    .block-accueil{
+        padding: 10px;
+    }
+    .align-text-center{
+        font-size: 14px;
+        padding-bottom: 5px;
+
+    }
+    .block-cercle{
+        width: 10rem;
+        height: 10rem;
+        margin-top: 150px !important;
+    }
+    .btn.startnow{
+        font-size: 12px !important;
+        padding: 5px 15px !important;
+        top: 50vh;
+    }
+}

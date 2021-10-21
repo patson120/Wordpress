@@ -38,9 +38,11 @@ function capitaine_register_assets() {
 
 
     // Déclarer un autre fichier CSS
-    wp_register_style( 'capitaine_other_styles', get_template_directory_uri() . '/css/main.css');
+    wp_register_style( 'capitaine_main_styles', get_template_directory_uri() . '/css/main.css');
+    wp_register_style( 'capitaine_index_styles', get_template_directory_uri() . '/css/index.css');
     
-    wp_enqueue_style('capitaine_other_styles');
+    wp_enqueue_style('capitaine_main_styles');
+    wp_enqueue_style('capitaine_index_styles');
     
     // Déclarer le JS
 	wp_enqueue_script( 'capitaine', get_template_directory_uri() . '/js/script.js', ['jquery'], '1.0', true );
