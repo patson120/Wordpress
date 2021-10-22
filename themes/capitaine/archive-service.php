@@ -29,7 +29,7 @@
     <div class="bg-success border border-success" style="height: 4px; width: 50px"></div>
     <div class="row justify-content-center">
         <?php  if (have_posts()): while (have_posts()): the_post(); ?>
-        <div class="col-lg-3 col-md-4 my-4">
+        <div class="col-lg-4 col-md-6 my-4">
             <?php get_template_part('parts/card-service'); ?>
         </div>
         <?php endwhile; endif; ?>

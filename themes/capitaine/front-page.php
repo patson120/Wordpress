@@ -2,7 +2,7 @@
 <?php if (have_posts()): while (have_posts()): the_post(); ?>
     <div class="Index">
         <div class="drapeau-cameroun">
-            <img src="<?= get_template_directory_uri() . '/img/drapeau-du-cameroun-image-animee-0009.gif' ?>" alt="Drapeau du Cameroun">
+            <img src="<?= get_template_directory_uri() . '/img/cameroon-flag-anim.gif' ?>" alt="Drapeau du Cameroun">
         </div>
         <div class="logo-minfof">
             <img src="<?= get_template_directory_uri() . '/img/logo-minfof.png' ?>" alt="Logo minfof">

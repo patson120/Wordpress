@@ -50,9 +50,9 @@
 .page-link{
     color: #001;
 }
-.dark-color{
+.white-color{
     font-weight: 900;
-    color: #001;
+    color: #fff;
 }
 
 .active, .page-item.active .page-link{
@@ -61,12 +61,22 @@
     font-weight: bold;
 }
 
-.some-modules{
-    background-image: url('../img/2019-04-25_ouest-2_0015_k.jpg');
+.some-modules, .autres-services{
+    background-image: url('../img/357078_w-1200_h-630_q-70_m-crop.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    border: solid 1px rgba(128, 128, 128, 0);
 }
+
+.autres-modules{
+    background-image: url('../img/photo-foret.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 1px rgba(128, 128, 128, 0);
+}
+
 
 .actualite .nav-item a{
     color: #28a745;
@@ -87,6 +97,11 @@
     border: none;
 }
 
+.the_content p{
+    padding: 20px;
+    text-align: justify;
+    font-size: 24px;
+}    
 
 #footer{
     background: #171b2a; 
@@ -100,7 +115,6 @@
     font-weight: bold;
     color: #28a745 !important;
 }
-
 
 .copyright{
     background: #282b38;

@@ -20,11 +20,11 @@
 </div>
 <div  id="qlqmodule" class="some-modules">
     <div class="max-width py-5">
-        <hr class="bg-dark" style="height: 2px"/>
-        <h1 class="site__heading font-weight-bold text-center dark-color text-uppercase">Quelques modules du sigif</h1>
-        <hr class="bg-dark" style="height: 2px"/>
+        <!-- <hr class="bg-dark" style="height: 2px"/> -->
+        <h1 class="site__heading font-weight-bold text-center white-color text-uppercase">Quelques modules du sigif 2</h1>
+        <!-- <hr class="bg-dark" style="height: 2px"/> -->
         <?php get_template_part('parts/some-modules'); ?>
-        <a href="http://localhost/wordpress/module/" target="_blank" class="nav-link btn-outline-success border border-success rounded-pill text-white d-flex justify-content-center mx-auto" style="width: 10rem;">Voir plus</a>
+        <a href="http://localhost/wordpress/module/" target="_blank" class="nav-link btn-outline-success border border-success rounded-pill text-white d-flex justify-content-center mx-auto font-weight-bold" style="width: 10rem;">Voir plus</a>
     </div>
 </div>
 <?php get_footer(); ?>

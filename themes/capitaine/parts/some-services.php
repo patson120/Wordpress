@@ -7,8 +7,8 @@
         ]);
         while ($query->have_posts()) : $query->the_post();
     ?>
-    <div class="col-sm-4 my-4">
-        <?php get_template_part("parts/card-services"); ?>
+    <div class="col-md-6 col-lg-4 my-4">
+        <?php get_template_part("parts/card-service"); ?>
     </div>
     <?php endwhile; ?>
 </div>

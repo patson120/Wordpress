@@ -39,14 +39,17 @@
 }
 
 .drapeau-cameroun{
-    width: 200px;
     position: absolute;
     top: 5%;
-    left: 0%;
+    left: 2%;
     z-index: 99;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.drapeau-cameroun img{
+    width: 150px;
 }
 
 .logo-minfof{
